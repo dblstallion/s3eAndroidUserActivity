@@ -18,10 +18,10 @@ import com.ideaworks3d.marmalade.LoaderActivity;
 //import com.nickchops.s3eAndroidFullscreen.s3eAndroidFullscreen;
 
 // For https://github.com/nickchops/s3eAndroidController
-//import com.nickchops.s3eAndroidController.s3eAndroidControllerActivity;
-//import android.os.Bundle;
-//import android.view.KeyEvent;
-//import android.view.MotionEvent;
+import com.nickchops.s3eAndroidController.s3eAndroidControllerActivity;
+import android.os.Bundle;
+import android.view.KeyEvent;
+import android.view.MotionEvent;
 
 // Add calls to any extensions you are using as instructed
 // s3eAndroidController and s3eAndroidFullscreen are shown as examples
@@ -38,7 +38,7 @@ public class s3eAndroidUserActivity extends LoaderActivity
     */
     
     // For s3eAndroidController
-    /*
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,5 +59,5 @@ public class s3eAndroidUserActivity extends LoaderActivity
     public boolean onGenericMotionEvent(MotionEvent event) {
         return s3eAndroidControllerActivity.onGenericMotionEvent(event) ? true : super.onGenericMotionEvent(event);
     }
-    */
+    
 }
